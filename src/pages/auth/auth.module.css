@@ -1,0 +1,62 @@
+.bg {
+    background-image: url("../../assets/img/auth.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.bg > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+}
+.auth {
+    width: 700px;
+    background: rgba(60, 60, 60, 0.25);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    padding: 50px 68px;
+}
+.auth > h1 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.auth > p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.auth > button {
+    max-width: 415px;
+    width: 100%;
+    padding: 18px 0;
+    background: #DDAB5F;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.auth > p > span {
+    text-decoration: underline;
+}
+.auth > ul > li {
+    margin-left: 20px;
+    color: #fff;
+}
+.link {
+    color: #fff;
+    text-decoration: underline;
+}

@@ -1,0 +1,221 @@
+.bg {
+    background: #C4C4C4;
+    padding-top: 100px;
+}
+.aboutAuth {
+    position: relative;
+}
+.file {
+    max-width: 304px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+}
+.file > p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+}
+.file > label > input {
+    display: none;
+}
+.file > label {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border: none;
+    background: #DDAB5F;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aboutAuth > p {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: start;
+}
+.avatarImg > img {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    bottom: -80px;
+}
+.quantity {
+    width: 100%;
+    background-color: #F5E2CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 90px;
+    padding: 25px 0;
+}
+.quantity > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text, .number {
+    font-size: 24px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.number {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.myWork {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.myWork > h1 {
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.creates {
+    margin-bottom: 100px;
+}
+.creates > h2 {
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #000000;
+}
+.create {
+    display: flex;
+}
+.categoty {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 85.5%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 20px;
+}
+.mainBox {
+    width: 650px;
+    height: 700px;
+    background: #F5E2CF;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+.mainTextarea {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    font-size: 16px;
+}
+.centerBox {
+    width: 280px;
+    height: 700px;
+    background: #F5E2CF;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.endBox {
+    width: 280px;
+    height: 700px;
+    background: #F5E2CF;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.topCenterBox > textarea {
+    width: 100%;
+    height: 240px;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.photoUploud {
+    width: 100%;
+    height: 250px;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+}
+.photoUploud  > img {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.topEndBox > textarea {
+    margin-top: 24px;
+    width: 100%;
+    height: 240px;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.bottomEndBox > textarea {
+    width: 100%;
+    height: 140px;
+    border: 3px solid #000000;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.bottomEndBox > select {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+
+}
+.bottomEndBox > button {
+    width: 100%;
+    padding: 13px 0;
+    margin-top: 20px;
+    background-color: #DDAB5F;
+    border: none;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 85.5%;
+    color: #FFFFFF;
+    border-radius: 20px;
+}

@@ -1,0 +1,37 @@
+.boxStatic {
+    max-width: 360px;
+    width: 100%;
+}
+.staticP {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    color: #000000;
+}
+.number {
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 111px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+    .staticP {
+        font-size: 26px;
+    }
+    .number {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .staticP {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .number {
+        font-size: 40px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+}

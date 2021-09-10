@@ -1,0 +1,10 @@
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 175px;
+    width: 50%;
+}
+.cardLeft > p {
+    margin: 0;
+}

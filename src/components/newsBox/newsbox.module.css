@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+    grid-gap: 30px;
+    align-items: center;
+}
+.boxLeft > div {
+    width: 310px;
+    height: 280px;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxRight > p {
+    max-width: 280px;
+    width: 100%;
+}
+.boxRight > h6 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.boxRight > p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+}
+@media screen and (max-width: 768px) {
+    .boxLeft > div {
+        width: 280px;
+        height: 250px;
+        background: #C4C4C4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxRight > h6 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 540px){
+    .box {
+        flex-direction: column;
+    }
+}

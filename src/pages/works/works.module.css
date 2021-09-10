@@ -1,0 +1,49 @@
+.WorksBg {
+    max-width: 1600px;
+    width: 100%;
+    position: relative;
+}
+
+.WorksBg > img {
+    width: 100%;
+}
+.WorksBg > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.popularWorks {
+    margin-top: 160px;
+}
+.popularWorks > h2 {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.worksBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.allWorks {
+    margin-top: 200px;
+}
+.allWorks > h3 {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.allWorksBox {
+    margin-bottom: 100px;
+}

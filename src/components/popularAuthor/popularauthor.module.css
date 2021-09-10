@@ -1,0 +1,56 @@
+.cardAuth {
+    width: 300px;
+    background: #F5E2CF;
+    padding: 37px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 22px;
+}
+.circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color:  #C4C4C4;
+}
+.cardAuth > span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+.cardAuth > p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.btnLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DDAB5F;
+    padding: 22px 0;
+    border-radius: 0 0 20px 20px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+@media screen and (max-width: 540px) {
+    .cardAuth {
+        width: 250px;
+        align-items: center;
+        padding: 10px;
+        grid-gap: 5px;
+    }
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+    .btnLink {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+}

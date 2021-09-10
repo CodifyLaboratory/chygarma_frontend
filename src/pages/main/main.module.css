@@ -1,0 +1,395 @@
+.bgMain {
+    position: relative;
+}
+
+.bgImg {
+    max-width: 1440px;
+    width: 100%;
+    height: 1000px;
+}
+
+.search {
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchLeft {
+    width: 100%;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rightContent > h2 {
+    font-weight: normal;
+    font-size: 72px;
+    color: #000000;
+    text-align: right;
+}
+
+.description {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    width: 60%;
+    color: #000000;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 110px;
+
+}
+
+.rightContent > div {
+    width: 277px;
+    height: 277px;
+    margin-right: 110px;
+}
+
+.rightContent > div > img {
+    width: 100%;
+}
+
+.link {
+    margin-top: 110px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.cardsWork {
+    margin-top: 140px;
+}
+
+.cardsWork > h2 {
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    color: #000000;
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+.cardsWork > p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cardImg {
+    width: 137px;
+    height: 137px;
+}
+
+.cardImg > img {
+    width: 100%;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 120px;
+    width: 50%;
+}
+
+.cardLeft > p {
+    margin: 0;
+}
+
+.cardRight {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular > h3 {
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.popular > p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.boxAuthor {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    margin-right: 100px;
+}
+
+.statics {
+    margin-top: 120px;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.title {
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    color: #000000;
+}
+
+.static {
+    display: flex;
+    justify-content: space-between;
+    /*grid-gap: 30px;*/
+}
+
+.history {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.history > p {
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    color: #000000;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 85px 25px;
+    top: 20px;
+    right: 20px;
+    max-width: 400px;
+    background-color: #DDAB5F;
+    grid-gap: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+
+}
+
+.modal > p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+/*.staticLeft {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 100%;*/
+/*}*/
+
+@media screen and (max-width: 1200px) {
+    .box > div:last-child {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .search {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .rightContent {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    .rightContent > h2 {
+        font-size: 64px;
+    }
+
+    .rightContent > p {
+        font-size: 18px;
+    }
+
+    .rightContent > div {
+        width: 124px;
+        height: 124px;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .cardsWork > h2 {
+        font-size: 64px;
+    }
+
+    .cardsWork > p {
+        font-size: 24px;
+    }
+
+    .cardLeft {
+        display: none;
+    }
+
+    .popular > h3 {
+        font-size: 64px;
+    }
+
+    .popular > p {
+        font-size: 24px;
+        width: 60%;
+    }
+
+    .static {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .history > p {
+        font-size: 64px;
+    }
+
+    .boxHistory {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 60px;
+    }
+
+    .box > div:last-child {
+        display: none;
+    }
+
+    .cardRight > div:nth-child(5) {
+        display: none;
+    }
+
+    .cardRight > div:nth-child(6) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rightContent > h2 {
+        font-size: 50px;
+    }
+
+    .box > div:nth-child(2) {
+        display: none;
+    }
+
+    .staticLeft > div:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .search {
+        margin-top: 50px;
+    }
+    .rightContent > h2 {
+        font-size: 36px;
+    }
+    .rightContent > p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .bgImg {
+        height: 500px;
+    }
+    .rightContent > div {
+        display: none;
+    }
+    .cardRight > div:nth-child(2) {
+        display: none;
+    }
+    .cardRight > div:nth-child(3) {
+        display: none;
+
+    }
+    .cardsWork > h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .cardsWork > p{
+        font-size: 18px;
+    }
+    .popular > h3 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .popular > p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .boxAuthor {
+        margin-top: 30px;
+    }
+    .title {
+        font-size: 40px;
+        text-align: start;
+        line-height: 40px;
+    }
+    .staticRightt > h2 {
+        margin-top: 50px;
+    }
+    .staticRightt > div:nth-child(3) {
+        display: none;
+    }
+    .staticRightt > div:nth-child(4) {
+        margin-top: 30px;
+    }
+    .history > p {
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .boxHistory > div:nth-child(2) {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+}

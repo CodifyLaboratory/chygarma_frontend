@@ -1,0 +1,79 @@
+.bg {
+    position: relative;
+}
+.bg > img {
+    width: 100%;
+}
+.bg > h1 {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.authors {
+    margin-top: 120px;
+}
+.title {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.slick {
+    display: flex;
+    grid-gap: 40px;
+}
+.slickLeft {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.slickRight {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+}
+.slickLink {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.allAuthors {
+    margin-top: 200px;
+}
+.allAuthors > h2 {
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 111px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.boxAuthors {
+    max-width: 1140px;
+    width: 100%;
+    margin-bottom: 130px;
+}
+.slickSlider {
+
+}
+.slickSlider > div {
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slider {
+    max-width: 1140px;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+}
