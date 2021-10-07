@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import {useEffect, useState} from "react";
 import {Profile} from "./pages/profile/Profile";
 import {Users} from "./pages/users/Users";
+import {Work} from "./pages/work/Work";
 
 function App() {
     const [ modal, setModal ] = useState(false)
@@ -39,6 +40,9 @@ function App() {
                     </Route>
                     <Route path="/users">
                         <Users />
+                    </Route>
+                    <Route path="/work">
+                        <Work />
                     </Route>
                     <Route path="/">
                         <Main modal={modal} setModal={setModal}/>

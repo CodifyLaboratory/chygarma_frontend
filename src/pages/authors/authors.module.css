@@ -57,23 +57,71 @@
     color: #000000;
     margin-bottom: 30px;
 }
-.boxAuthors {
-    max-width: 1140px;
-    width: 100%;
-    margin-bottom: 130px;
-}
-.slickSlider {
 
+@media screen and (max-width: 992px) {
+    .bg > h1 {
+        font-size: 78px;
+    }
+    .title {
+        font-size: 79px;
+    }
+    .slickLink {
+        font-size: 28px;
+        line-height: 20px;
+    }
 }
-.slickSlider > div {
-    max-width: 1140px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+
+@media screen and (max-width: 768px) {
+    .bg > img {
+        height: 450px;
+    }
+    .slick {
+        flex-direction: column;
+    }
+    .slickLeft {
+        width: 100%;
+    }
+    .slickRight {
+        display: flex;
+        flex-direction: initial;
+        grid-gap: 20px;
+        justify-content: space-between;
+    }
+    .allAuthors > h2, .title {
+        font-size: 68px;
+        line-height: 72px;
+    }
 }
-.slider {
-    max-width: 1140px;
-    width: 100%;
-    display: flex !important;
-    flex-direction: column;
+
+@media screen and (max-width: 540px) {
+    .bg > img {
+        height: 320px;
+    }
+
+    .bg > h1 {
+        font-size: 54px;
+    }
+    .allAuthors > h2, .title {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .slickLink {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .bg > img {
+        height: 220px;
+    }
+    .bg > h1 {
+        font-size: 32px;
+    }
+
+    .allAuthors > h2, .title {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
 }

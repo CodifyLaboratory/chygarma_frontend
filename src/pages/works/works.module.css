@@ -6,6 +6,7 @@
 
 .WorksBg > img {
     width: 100%;
+    height: 900px;
 }
 .WorksBg > h1 {
     position: absolute;
@@ -47,3 +48,74 @@
 .allWorksBox {
     margin-bottom: 100px;
 }
+@media screen and (max-width: 992px) {
+    .WorksBg > img {
+        width: 100%;
+        height: 600px;
+    }
+    .WorksBg > h1, .allWorks > h3, .popularWorks > h2 {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .WorksBg > img {
+        width: 100%;
+        height: 450px;
+    }
+    .WorksBg > h1 {
+        font-size: 64px;
+    }
+    .allWorks > h3, .popularWorks > h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .worksBox > div:nth-child(6), .worksBox > div:nth-child(5) {
+        display: none;
+    }
+    .popularWorks {
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .WorksBg > img {
+        width: 100%;
+        height: 350px;
+    }
+    .WorksBg > h1 {
+        font-size: 40px;
+    }
+    .allWorks > h3, .popularWorks > h2 {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .WorksBg > img {
+        width: 100%;
+        height: 280px;
+    }
+    .WorksBg > h1 {
+        font-size: 34px;
+    }
+    .allWorks > h3, .popularWorks > h2 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .worksBox > div:nth-child(3), .worksBox > div:nth-child(1) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .WorksBg > img {
+        width: 100%;
+        height: 200px;
+    }
+    .WorksBg > h1 {
+        font-size: 30px;
+    }
+    }

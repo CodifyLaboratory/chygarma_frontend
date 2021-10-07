@@ -17,6 +17,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     grid-gap: 40px;
     padding: 50px 68px;
 }
@@ -59,4 +60,47 @@
 .link {
     color: #fff;
     text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .bg > div {
+        padding: 90px 0;
+    }
+
+    .auth {
+        width: 440px;
+        grid-gap: 20px;
+        padding: 50px 30px;
+    }
+    .auth > h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .auth > p {
+        font-size: 18px;
+    }
+    .auth > p > span {
+        font-size: 18px;
+    }
+    .auth > button {
+        width: 170px;
+        font-size: 14px;
+        padding: 4px 0;
+    }
+}
+@media screen and (max-width: 540px) {
+
+
+    .auth {
+        width: 340px;
+        grid-gap: 20px;
+        padding: 30px 10px;
+        margin: 0 10px;
+    }
+    .auth > h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .link {
+        font-size: 20px;
+    }
 }

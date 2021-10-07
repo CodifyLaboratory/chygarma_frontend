@@ -1,0 +1,25 @@
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.leftWork > h1  {
+    font-size: 44px;
+    text-align: center;
+}
+.leftWork > pre {
+    font-size: 24px;
+    text-align: start;
+}
+.rightWork > div > img {
+    background-color: #868383;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.pre {
+    display: flex;
+    flex-direction: column ;
+}

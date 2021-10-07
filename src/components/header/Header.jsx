@@ -55,7 +55,45 @@ export const Header = (props) => {
                         <div className={css.burgerLine}></div>
                         <div className={css.burgerLine}></div>
                     </div>
-                    </div>
+                    {
+                        props.modal && <div className={css.modal}>
+                            {
+                                props.isAuth ? <>
+                                    <Link className="link" to="/authorization">
+                                        <button className={css.borderBtn}>Вход ></button>
+                                    </Link>
+                                    <Link className="link" to="/registration">
+                                        <button className={css.bgBtn}>Регистрация ></button>
+                                    </Link>
+                                </> :
+                                    <>
+                                        <div className={`${css.adwad} ${css.authName}`}>
+                                            <Link className="link" to="/dashboard">
+                                                <p className={css.name}>Имя фамилия</p>
+                                            </Link>
+                                            <Link className="link" to="/dashboard">
+                                                <div className={css.avatarImg}>
+                                                    <img src="" alt=""/>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </>
+                            }
+                            <Link className="link" to="/">
+                                <p>Главная</p>
+                            </Link>
+                            <Link className="link" to="/authors">
+                                <p>Авторы</p>
+                            </Link>
+                            <Link className="link" to="/authors-works">
+                                <p>Произведения</p>
+                            </Link>
+                            <a className="link" href="/main#news">
+                                <p>Новости</p>
+                            </a>
+                        </div>
+                    }
+                </div>
             </div>
         </header>
     )

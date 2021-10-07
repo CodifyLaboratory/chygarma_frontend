@@ -1,10 +1,14 @@
 .bg {
     background: #C4C4C4;
     padding-top: 100px;
+    position: relative;
+
 }
+
 .aboutAuth {
     position: relative;
 }
+
 .file {
     max-width: 304px;
     width: 100%;
@@ -14,6 +18,12 @@
     align-items: center;
     grid-gap: 10px;
 }
+
+.fileModal {
+    display: none;
+
+}
+
 .file > p {
     text-align: center;
     font-size: 24px;
@@ -22,9 +32,11 @@
     color: #FFFFFF;
     width: 100%;
 }
+
 .file > label > input {
     display: none;
 }
+
 .file > label {
     max-width: 200px;
     width: 100%;
@@ -40,6 +52,15 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.bgAvatar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+}
+
 .aboutAuth > p {
     font-weight: normal;
     font-size: 96px;
@@ -51,14 +72,41 @@
     margin-top: 50px;
     text-align: start;
 }
+
+.avatarImg {
+    position: relative;
+}
+
 .avatarImg > img {
     position: absolute;
     width: 280px;
     height: 280px;
     border-radius: 50%;
     background-color: #E0E0E0;
-    bottom: -80px;
+    bottom: 20px;
+
 }
+
+.avatarUploud {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DDAB5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: 230px;
+    left: 215px;
+    color: #fff;
+    background-size: cover;
+}
+
+.avatarUploud > label > input {
+    display: none;
+}
+
 .quantity {
     width: 100%;
     background-color: #F5E2CF;
@@ -67,26 +115,33 @@
     align-items: center;
     grid-gap: 90px;
     padding: 25px 0;
+    position: absolute;
+    z-index: 99 !important;
 }
+
 .quantity > div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .text, .number {
     font-size: 24px;
     line-height: 85.5%;
     text-transform: uppercase;
     color: #000000;
 }
+
 .number {
     margin-top: 10px;
     font-size: 30px;
 }
+
 .myWork {
     margin-top: 100px;
     margin-bottom: 150px;
 }
+
 .myWork > h1 {
     font-weight: normal;
     font-size: 64px;
@@ -94,10 +149,13 @@
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 50px;
+    margin-top: 150px;
 }
+
 .creates {
     margin-bottom: 100px;
 }
+
 .creates > h2 {
     font-weight: normal;
     font-size: 64px;
@@ -106,10 +164,12 @@
     margin-bottom: 50px;
     color: #000000;
 }
+
 .create {
     display: flex;
 }
-.categoty {
+
+.category {
     font-weight: normal;
     font-size: 24px;
     line-height: 85.5%;
@@ -117,6 +177,7 @@
     color: #000000;
     margin-left: 20px;
 }
+
 .mainBox {
     width: 650px;
     height: 700px;
@@ -129,6 +190,7 @@
     flex-direction: column;
     grid-gap: 15px;
 }
+
 .mainTextarea {
     width: 100%;
     height: 100%;
@@ -137,6 +199,7 @@
     border-radius: 20px;
     font-size: 16px;
 }
+
 .centerBox {
     width: 280px;
     height: 700px;
@@ -148,6 +211,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .endBox {
     width: 280px;
     height: 700px;
@@ -159,6 +223,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .topCenterBox > textarea {
     width: 100%;
     height: 240px;
@@ -168,6 +233,7 @@
     margin-top: 24px;
     margin-bottom: 40px;
 }
+
 .photoUploud {
     width: 100%;
     height: 250px;
@@ -175,12 +241,23 @@
     backdrop-filter: blur(30px);
     border-radius: 20px;
 }
-.photoUploud  > img {
+
+.photoUploud > img {
     width: 100%;
     height: 100%;
     background-color: #fff;
     border-radius: 20px;
 }
+
+.workUploud {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    width: 50px !important;
+    height: 50px !important;
+}
+
 .topEndBox > textarea {
     margin-top: 24px;
     width: 100%;
@@ -190,6 +267,7 @@
     border-radius: 20px;
     margin-bottom: 40px;
 }
+
 .bottomEndBox > textarea {
     width: 100%;
     height: 140px;
@@ -198,6 +276,7 @@
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
 .bottomEndBox > select {
     width: 100%;
     height: 40px;
@@ -207,6 +286,7 @@
     border: 3px solid #000000;
 
 }
+
 .bottomEndBox > button {
     width: 100%;
     padding: 13px 0;
@@ -218,4 +298,206 @@
     line-height: 85.5%;
     color: #FFFFFF;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutAuth > p {
+        font-size: 80px;
+        margin-left: 300px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .avatarImg > img {
+        width: 260px;
+        height: 260px;
+        bottom: 10px;
+    }
+
+    .avatarUploud {
+        bottom: 190px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .myWork > h1, .creates > h2 {
+        font-size: 56px;
+    }
+
+    .mainBox, .centerBox, .endBox {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutAuth > p {
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .avatarImg > img {
+        width: 100px;
+        height: 100px;
+        bottom: 100px;
+    }
+
+    .avatarUploud {
+        width: 30px;
+        height: 29px;
+        font-size: 18px;
+        bottom: 160px;
+        left: 76px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .number {
+        font-size: 20px;
+        line-height: 60%;
+    }
+
+    .myWork > h1, .creates > h2 {
+        font-size: 46px;
+    }
+
+    .create {
+        flex-direction: column;
+    }
+
+    .mainBox, .centerBox, .endBox {
+        width: 100%;
+    }
+
+    .mainBox {
+        height: auto;
+    }
+
+    .mainBox > textarea {
+        height: 300px;
+    }
+
+    .centerBox {
+        display: flex;
+        flex-direction: initial;
+        grid-gap: 20px;
+        height: auto;
+    }
+
+    .centerBox > div {
+        width: 100%;
+    }
+
+    .centerBox > div > textarea {
+        margin: 10px 0;
+    }
+
+    .endBox {
+        display: flex;
+        flex-direction: initial;
+        grid-gap: 20px;
+        height: auto;
+    }
+
+    .endBox > div {
+        width: 100%;
+    }
+
+    .endBox > div > textarea {
+        margin: 10px 0;
+    }
+
+    .file {
+        display: none;
+    }
+
+    .fileModal {
+        display: block;
+        position: absolute;
+        top: -140px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .aboutAuth > p {
+        margin-left: 0;
+        font-size: 36px;
+    }
+
+    .avatarImg > img {
+        width: 100px;
+        height: 100px;
+        bottom: 80px;
+        left: 0;
+    }
+
+    .avatarUploud {
+        bottom: 150px;
+    }
+
+    .quantity {
+        grid-gap: 30px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .number {
+        font-size: 20px;
+        line-height: 60%;
+    }
+
+    .myWork > h1, .creates > h2 {
+        font-size: 36px;
+    }
+
+    /*.avatarImg > img  {*/
+    /*    width: 160px;*/
+    /*    height: 160px;*/
+    /*    bottom: 80px;*/
+    /*    right: 50%;*/
+    /*    transform: translateX(50%);*/
+    /*}*/
+    .create > div {
+        border: 2px solid #000000;
+    }
+
+    .mainBox > textarea, .topCenterBox > textarea, .photoUploud, .topEndBox > textarea, .bottomEndBox > textarea, .bottomEndBox > select {
+        border: 2px solid #000000;
+    }
+
+    .bottomEndBox > button {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .file {
+        display: none;
+    }
+
+    .fileModal {
+        display: block;
+        position: absolute;
+        top: -140px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .aboutAuth > p {
+        padding-bottom: 10px;
+    }
+
+    .myWork > h1, .creates > h2 {
+        font-size: 26px;
+    }
 }

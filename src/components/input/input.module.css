@@ -1,3 +1,5 @@
+
+
 .input {
     max-width: 565px;
     width: 100%;
@@ -9,4 +11,22 @@
     background: #FFFFFF;
     border-radius: 10px;
     border: none;
+}
+@media screen and (max-width: 768px) {
+  .input {
+      max-width: 335px;
+      width: 100%;
+      font-size: 18px;
+      padding: 9px 17px;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+    .input {
+        max-width: 285px;
+        width: 100%;
+        font-size: 14px;
+        padding: 9px 40px;
+    }
 }

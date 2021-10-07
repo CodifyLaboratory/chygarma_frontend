@@ -187,28 +187,7 @@
     margin-bottom: 100px;
 }
 
-.modal {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    padding: 85px 25px;
-    top: 20px;
-    right: 20px;
-    max-width: 400px;
-    background-color: #DDAB5F;
-    grid-gap: 10px;
-    border-radius: 20px;
-    backdrop-filter: blur(30px);
 
-}
-
-.modal > p {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-
-}
 
 /*.staticLeft {*/
 /*    display: flex;*/

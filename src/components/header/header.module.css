@@ -50,6 +50,28 @@
     opacity: 0.7;
     cursor: pointer;
 }
+.modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 85px 25px;
+    top: 140px;
+    right: 20px;
+    max-width: 400px;
+    background-color: #DDAB5F;
+    grid-gap: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    z-index: 1000 !important;
+}
+
+.modal > p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
 
 .borderBtn {
     font-family: Underdog;

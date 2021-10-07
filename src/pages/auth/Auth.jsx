@@ -16,7 +16,7 @@ export const Auth = () => {
                         <p>Нету аккаунта?
                             <Link className="link" to="/registration">
                             <span className={css.link}>
-                            Зарегистрироваться
+                              Зарегистрироваться
                         </span>
                             </Link>
                         </p>

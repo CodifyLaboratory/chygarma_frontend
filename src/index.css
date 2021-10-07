@@ -43,12 +43,41 @@ textarea {
   outline: none;
   padding: 12px 16px;
 }
-
+.slickSlider {
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.arrow, .arrowImg{
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.arrowImg{
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  height: 75px;
+}
+.slider {
+  max-width: 850px !important ;
+  width: 100% !important;
+}
+.prevArrow {
+  right: 250px;
+  transform: rotate(180deg);
+}
 @media screen and (max-width: 1200px) {
   .container {
     padding: 0 20px;
   }
 }
+
+
 @media screen and (max-width: 320px) {
   .container {
     padding: 0 10px;
