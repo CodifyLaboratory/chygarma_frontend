@@ -2,7 +2,7 @@ import css from "./works.module.css"
 import WorksBg from "../../assets/img/WorksBg.png"
 import {WorksBox} from "../../components/worksBox/WorksBox";
 import {Search} from "../../components/search/Search";
-import WorkSlider from "../../components/workSlider/WorkSlider";
+import WorksSlider from "../../components/worksSlider/WorksSlider";
 
 export const Works = () => {
     return (
@@ -29,7 +29,7 @@ export const Works = () => {
                     <h3>Все произведения</h3>
                     <Search/>
                     <div className={css.allWorksBox}>
-                        <WorkSlider/>
+                        <WorksSlider/>
                     </div>
 
                 </section>

@@ -2,7 +2,7 @@ import css from "./authors.module.css"
 import BgAuth from "../../assets/img/AuthorsBg.png"
 import {SlickAuthorBox} from "../../components/slickAuthorBox/SlickAuthorBox";
 import {Search} from "../../components/search/Search";
-import WorkSlider from "../../components/workSlider/WorkSlider"
+import WorksSlider from "../../components/worksSlider/WorksSlider"
 export const Authors = () => {
         return (
             <div>
@@ -35,7 +35,7 @@ export const Authors = () => {
                                 <Search/>
                             </div>
                                 <div className={css.boxAuthors}>
-                                    <WorkSlider />
+                                    <WorksSlider />
                                 </div>
                         </section>
                     </div>

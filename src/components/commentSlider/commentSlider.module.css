@@ -1,0 +1,13 @@
+.slider{
+    display: flex;
+}
+.next{
+    position: absolute;
+    bottom: 100px;
+}
+.arrow{
+    width: 6%;
+    position: absolute;
+    bottom: -100px;
+    right: 200px;
+}

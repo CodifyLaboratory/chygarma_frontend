@@ -23,7 +23,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-export default class WorkSlider extends Component {
+export default class WorksSlider extends Component {
 
     render() {
         const settings = {

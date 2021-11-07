@@ -1,6 +1,6 @@
 import css from "./profile.module.css"
 import {Search} from "../../components/search/Search";
-import WorkSlider from "../../components/workSlider/WorkSlider";
+import WorksSlider from "../../components/worksSlider/WorksSlider";
 import {useState} from "react";
 
 export const Profile = () => {
@@ -99,7 +99,7 @@ export const Profile = () => {
                     <h1>мои произведения</h1>
                     <Search/>
                     <div>
-                        <WorkSlider/>
+                        <WorksSlider/>
                     </div>
                 </section>
                 <section className={css.creates}>

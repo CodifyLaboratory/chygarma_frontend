@@ -48,6 +48,10 @@ textarea {
   width: 100%;
   margin-bottom: 100px;
 }
+.comm_arrow_prev{
+  bottom: -230px;
+  left: 200px;
+}
 .arrow, .arrowImg{
   position: absolute;
   z-index: 4;

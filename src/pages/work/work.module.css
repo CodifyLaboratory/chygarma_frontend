@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .work {
   display: flex;
@@ -11,19 +11,20 @@
 }
 .rightWork > div > img {
   background-color: #868383;
-  width: 500px;
+  width: 600px;
   height: 500px;
   border-radius: 20px;
+  margin-top: 200px;
 }
 
 .pre {
   /* display: flex;
   flex-direction: column; */
-  margin: 62px auto;
+  margin: 62px 0;
   width: 400px;
 }
 .poem {
-  white-space: pre;
+  white-space: pre-wrap;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -41,4 +42,58 @@
   font-size: 36px;
   line-height: 85.5%;
   font-weight: normal;
+}
+.likes {
+  display: flex;
+  margin-top: 69px;
+  align-items: center;
+  grid-gap: 18px;
+}
+.likes div {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 85.5%;
+}
+.comments{
+  margin-top: -70px;
+}
+.my_comment {
+  display: flex;
+  grid-gap: 50px;
+  align-items: center;
+}
+.title_comment {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 85.5%;
+}
+.comment_input {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: #868686;
+  width: 650px;
+  padding: 16px 20px;
+  font-family: "Underdog";
+}
+.comment_btn {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 85.5%;
+  padding: 23px 50px;
+  background: #DDAB5F;
+border: 3px solid #000000;
+border-radius: 20px;
+font-family: 'Underdog';
+}
+.my_comment form{
+  display: flex;
+  grid-gap: 38px;
+}
+.other_comments{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 114px;
 }
